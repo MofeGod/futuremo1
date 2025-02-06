@@ -22,7 +22,7 @@ def calculator():
 
     elif operator =="/":
             if num2 == 0:
-                print("invalid operation. please change the second number, it can't be 0")
+                print("invalid operation. Change the second number, it can't be 0")
             else:
                 div = num1 / num2
                 print('solution:', num1, '/', num2, '=', div )

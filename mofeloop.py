@@ -14,7 +14,7 @@ def borrow_book():
         for book in book_in_library:
             if book_to_borrow == book:
                 book_in_library.remove(book_to_borrow)
-        print(f"you have borrowed {book_to_borrow}")
+        print(f"you borrowed {book_to_borrow}")
     
     
 def return_book():
